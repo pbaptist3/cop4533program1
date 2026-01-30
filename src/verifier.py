@@ -1,6 +1,6 @@
 import sys
 
-def read_input():
+def read_input(source=input):
     """
     format:
     n lines of hospital preferences
@@ -9,17 +9,17 @@ def read_input():
 
     """
 
-    n = int(input())
+    n = int(source())
     h_pref = []
     for _ in range(n):
-        h_pref.append([int(x) for x in input().split()])
+        h_pref.append([int(x) for x in source().split()])
     s_pref = []
     for _ in range(n):
-        s_pref.append([int(x) for x in input().split()])
+        s_pref.append([int(x) for x in source().split()])
     
     matching = {}
     for _ in range(n):
-        parts = input().split()
+        parts = source().split()
         h, s = int(parts[0]), int(parts[1])
         matching[h] = s
 
@@ -147,9 +147,9 @@ def verify(n, h_pref, s_pref, matching):
     
     return "VALID STABLE"
 
-def main():
+def main(source=input):
     if len(sys.argv) == 1:
-        n, h_pref, s_pref, matching = read_input()
+        n, h_pref, s_pref, matching = read_input(source=source)
     elif len(sys.argv) == 3:
         input_file = sys.argv[1]
         matching_file = sys.argv[2]

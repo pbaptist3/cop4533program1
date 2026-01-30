@@ -1,12 +1,12 @@
-def match():
+def match(source=input, sink=print):
     # take inputs
-    n = int(input())
+    n = int(source())
     h_pref = []
     s_pref = []
     for _ in range(n):
-       h_pref.append([int(i) for i in input().split(' ')])
+       h_pref.append([int(i) for i in source().split(' ')])
     for _ in range(n):
-       s_pref.append([int(i) for i in input().split(' ')])
+       s_pref.append([int(i) for i in source().split(' ')])
 
     # make reverse lookup for student preferences
     rev_s = [[-1]*n for i in range(n)]
@@ -37,7 +37,7 @@ def match():
         # rejected otherwise
     
     for (s, h) in matches.items():
-        print(f"{h+1} {s+1}")
+        sink(f"{h+1} {s+1}")
 
 if __name__=="__main__":
     match()
