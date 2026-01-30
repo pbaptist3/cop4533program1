@@ -17,13 +17,11 @@ The project includes three main components:
    - time_verify.py
 ## **Executing program**
 - Run the matching algorithm:
-  '''python match.py < input.in'''
+  ''''python match.py < input.in''''
 - Save output to a file:
-  '''python match.py < input.in > output.out'''
+  ''''python match.py < input.in > output.out''''
 - Verify a matching:
-  '''python verifier.py input.in output.out'''
-- Run scalability analysis:
-  '''python scalability.py'''
+  ''''python verifier.py input.in output.out''''
 # **Help**
 Ensure input files follow the correct format:
 - First line: integer n
