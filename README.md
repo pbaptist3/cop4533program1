@@ -9,14 +9,12 @@ The project includes three main components:
 ## **Getting Started**
 ### **Dependencies**
 - Python 3.6 or higher
-- matplotlib (for scalability graphing)
 ### **Installing**
 1. Download all Python files to the same directory:
    - match.py
    - verifier.py
-   - S
-2. Install matplotlib if running scalability analysis:
-'''pip install matplotlib'''
+   - time_match
+   - time_verify
 ## **Executing program**
 - Run the matching algorithm:
   '''python match.py < input.in'''
@@ -36,5 +34,5 @@ To test the full pipeline:
 result.out && python verifier.py
 example.in result.out'''
 ## **Authors**
-Philip A. Baptist
+Philip A. Baptist 
 Ansh Gupta
