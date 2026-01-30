@@ -145,7 +145,7 @@ def verify(n, h_pref, s_pref, matching):
     if not is_stable:
         return stability_msg
     
-    return "VALID AND STABLE"
+    return "VALID STABLE"
 
 def main():
     if len(sys.argv) == 1:
