@@ -13,8 +13,8 @@ The project includes three main components:
 1. Download all Python files to the same directory:
    - match.py
    - verifier.py
-   - time_match
-   - time_verify
+   - time_match.py
+   - time_verify.py
 ## **Executing program**
 - Run the matching algorithm:
   '''python match.py < input.in'''
@@ -34,5 +34,5 @@ To test the full pipeline:
 result.out && python verifier.py
 example.in result.out'''
 ## **Authors**
-Philip A. Baptist 
+Philip A. Baptist
 Ansh Gupta
