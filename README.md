@@ -13,13 +13,13 @@ The project includes three main components:
 1. Clone Repository
 ## **Executing program**
 - Run the matching algorithm:
-  ''''python src/match.py''''
+  ```python src/match.py```
 - Run example match
-  ''''python src/match.py < examples/match1.in
+  ```python src/match.py < examples/match1.in```
 - Run the verification algorithm:
-  ''''python src/verifier.py''''
+  ```python src/verifier.py```
 - Verify an example matching:
-  ''''python src/verifier.py < examples/verify1.in''''
+  ```python src/verifier.py < examples/verify1.in```
 # **Help**
 Ensure input files follow the correct format:
 - First line: integer n
