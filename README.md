@@ -10,18 +10,14 @@ The project includes three main components:
 ### **Dependencies**
 - Python 3.6 or higher
 ### **Installing**
-1. Download all Python files to the same directory:
-   - match.py
-   - verifier.py
-   - time_match.py
-   - time_verify.py
+1. Clone Repository
 ## **Executing program**
 - Run the matching algorithm:
-  ''''python match.py < input.in''''
+  ''''src/python match.py < input.in''''
 - Save output to a file:
-  ''''python match.py < input.in > output.out''''
+  ''''src/python match.py < input.in > output.out''''
 - Verify a matching:
-  ''''python verifier.py input.in output.out''''
+  ''''src/python verifier.py input.in output.out''''
 # **Help**
 Ensure input files follow the correct format:
 - First line: integer n
