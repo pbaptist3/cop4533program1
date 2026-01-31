@@ -35,8 +35,8 @@ Examples can be found in the examples/ folder
 Execution speed is calculated using data collected from src/time\_match.py and src/time\_verify.py
 ![graph of matching speed](images/matching.webp)
 ![graph of verification speed](images/verification.webp)
+
 The graphs of both matching speed and verification speed as a function of input size n appear to be quadratic with respect to n, suggesting that both matching and verification are O(n^2).
 ## **Authors**
-Philip Baptist
-
-Ansh Gupta
+- Philip Baptist
+- Ansh Gupta
